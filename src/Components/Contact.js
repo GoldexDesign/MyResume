@@ -110,9 +110,8 @@ class Contact extends Component {
               <div className="widget widget_contact">
                 <h4>Address and Phone</h4>
                 <p className="address">
-                  {name}
-                  {street} <br />
-                  {city} {state} {zip}
+                  {street}
+                  {city} {state}, {zip}
                   <br />
                   <span>{phone}</span>
                 </p>
@@ -125,7 +124,9 @@ class Contact extends Component {
                     <span>
                       Thanks for all
                       <br />
-                      <a href="./">https://github.com/GoldexDesign</a>
+                      <a href="./">
+                        https://www.linkedin.com/in/zlatko-skoric/
+                      </a>
                     </span>
                     <b>
                       <a href="./">2 Days Ago</a>
