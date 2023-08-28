@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Fade, Slide } from "react-reveal";
 
 function encode(data) {
   return Object.keys(data)
@@ -55,7 +54,7 @@ class Contact extends Component {
 
     return (
       <section id="contact">
-        <Fade bottom duration={1000}>
+        <fadeDiv bottom duration={1000}>
           <div className="row section-head">
             <div className="two columns header-col">
               <h1>
@@ -67,10 +66,10 @@ class Contact extends Component {
               <p className="lead">{this.props.data.contactmessage}</p>
             </div>
           </div>
-        </Fade>
+        </fadeDiv>
 
         <div className="row">
-          <Slide left duration={1000}>
+          <slideDiv left duration={1000}>
             <div className="eight columns">
               <form
                 name="contact"
@@ -125,9 +124,9 @@ class Contact extends Component {
                 <br />
               </div>
             </div>
-          </Slide>
+          </slideDiv>
 
-          <Slide right duration={1000}>
+          <slideDiv right duration={1000}>
             <aside className="four columns footer-widgets">
               <div className="widget widget_contact">
                 <h4>Address and Phone</h4>
@@ -151,7 +150,9 @@ class Contact extends Component {
                       has been invaluable, demonstrating a strong commitment to
                       driving innovative and engaging campaigns that captivate
                       audiences and drive results.
-                      <a href="./">https://github.com/GoldexDesign</a>
+                      <a href="https://github.com/GoldexDesign">
+                        https://github.com/GoldexDesign
+                      </a>
                     </span>
                     <b>
                       <a href="./">2 Days Ago</a>
@@ -165,7 +166,9 @@ class Contact extends Component {
                       digital presence. Working with him has been a pleasure,
                       and his contributions have played a vital role in the
                       success of our projects.
-                      <a href="./">https://github.com/GoldexDesign</a>
+                      <a href="https://github.com/GoldexDesign">
+                        https://github.com/GoldexDesign
+                      </a>
                     </span>
                     <b>
                       <a href="./">3 Days Ago</a>
@@ -174,7 +177,7 @@ class Contact extends Component {
                 </ul>
               </div>
             </aside>
-          </Slide>
+          </slideDiv>
         </div>
       </section>
     );
