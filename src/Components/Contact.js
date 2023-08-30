@@ -54,7 +54,7 @@ class Contact extends Component {
 
     return (
       <section id="contact">
-        <fadeDiv bottom duration={1000}>
+        <div bottom duration={1000}>
           <div className="row section-head">
             <div className="two columns header-col">
               <h1>
@@ -66,10 +66,10 @@ class Contact extends Component {
               <p className="lead">{this.props.data.contactmessage}</p>
             </div>
           </div>
-        </fadeDiv>
+        </div>
 
         <div className="row">
-          <slideDiv left duration={1000}>
+          <div left duration={1000}>
             <div className="eight columns">
               <form
                 name="contact"
@@ -124,9 +124,9 @@ class Contact extends Component {
                 <br />
               </div>
             </div>
-          </slideDiv>
+          </div>
 
-          <slideDiv right duration={1000}>
+          <div right duration={1000}>
             <aside className="four columns footer-widgets">
               <div className="widget widget_contact">
                 <h4>Address and Phone</h4>
@@ -177,7 +177,7 @@ class Contact extends Component {
                 </ul>
               </div>
             </aside>
-          </slideDiv>
+          </div>
         </div>
       </section>
     );
