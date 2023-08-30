@@ -54,7 +54,7 @@ class Contact extends Component {
 
     return (
       <section id="contact">
-        <div bottom duration={1000}>
+        <div duration={1000}>
           <div className="row section-head">
             <div className="two columns header-col">
               <h1>
@@ -69,7 +69,7 @@ class Contact extends Component {
         </div>
 
         <div className="row">
-          <div left duration={1000}>
+          <div duration={1000}>
             <div className="eight columns">
               <form
                 name="contact"
@@ -126,7 +126,7 @@ class Contact extends Component {
             </div>
           </div>
 
-          <div right duration={1000}>
+          <div duration={1000}>
             <aside className="four columns footer-widgets">
               <div className="widget widget_contact">
                 <h4>Address and Phone</h4>

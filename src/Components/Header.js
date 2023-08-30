@@ -57,14 +57,14 @@ class Header extends Component {
 
         <div className="row banner">
           <div className="banner-text">
-            <div bottom>
+            <div>
               <h1 className="responsive-headline">{name}</h1>
             </div>
-            <div bottom duration={1200}>
+            <div duration={1200}>
               <h3>{description}.</h3>
             </div>
             <hr />
-            <div bottom duration={2000}>
+            <div duration={2000}>
               <ul className="social">
                 {/* Button to open LinkedIn profile */}
                 <a href={linkedin} className="button btn linkedin-btn">

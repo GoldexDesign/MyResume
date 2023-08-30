@@ -21,7 +21,7 @@ class Portfolio extends Component {
 
     return (
       <section id="portfolio">
-        <div left duration={1000} distance="40px">
+        <div duration={1000} distance="40px">
           <div className="row">
             <div className="twelve columns collapsed">
               <h1>Check Out Some of My Works.</h1>
