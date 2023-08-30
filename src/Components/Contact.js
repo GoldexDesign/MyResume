@@ -27,19 +27,18 @@ class Contact extends Component {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", ...this.state }),
-    })
-      .then(() => {
-        console.log("Form submitted successfully!");
-        alert("Success!");
+    }).then(() => {
+      console.log("Form submitted successfully!");
+      alert("Success!");
 
-        // Clear the form fields after successful submission
-        this.setState({ name: "", email: "", message: "" });
-      })
+      // Clear the form fields after successful submission
+      this.setState({ name: "", email: "", message: "" });
+    });
 
-      .catch((error) => {
-        console.error("Form submission error:", error);
-        alert(error);
-      });
+    // .catch((error) => {
+    //   console.error("Form submission error:", error);
+    //   alert(error);
+    // });
   };
   handleChange = (e) => this.setState({ [e.target.name]: e.target.value });
   render() {
