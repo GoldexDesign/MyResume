@@ -6,7 +6,7 @@ To run this app on http://localhost:3000 do this:
 4. Wait till app open in your http://localhost:3000,
 5. Enjoy !
 
-   Check out my online resume demo: [Online Resume DEMO](https://app.netlify.com/sites/zlatkoresume/forms)
+   Check out my online resume demo: [[Online Resume DEMO](https://zlatkoresume.netlify.app/)
 
 Features:
 
