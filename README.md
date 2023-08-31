@@ -14,7 +14,7 @@ Features:
     Quick access to my LinkedIn and GitHub profiles through dedicated buttons.
     Download my resume as a PDF by clicking a button (it will both download and open the file with my CV).
     "WORK" section showcases pictures of my recent projects.
-    The "CONTACT" script is currently not connected due to security reasons.
+    The "CONTACT" form is currently working on netlify and you can send me messages.
     The footer includes icons linking to my social network profiles and displays a copyright notice.
     I hope you enjoy exploring my resume!
 
