@@ -165,8 +165,8 @@ class Contact extends Component {
                       digital presence. Working with him has been a pleasure,
                       and his contributions have played a vital role in the
                       success of our projects.
-                      <a href="https://github.com/GoldexDesign">
-                        https://github.com/GoldexDesign
+                      <a href="https://task-manager-app-one.vercel.app/">
+                        https://task-manager-app-one.vercel.app
                       </a>
                     </span>
                     <b>

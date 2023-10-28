@@ -14,7 +14,7 @@
       "zip": "11000 Belgrade"
     },
     "website": "",
-    "resumedownload": "ZlatkoSkoricResume.pdf",
+    "resumedownload": "Zlatko_Skoric_CV.pdf",
     "social": [
       {
         "name": "facebook",
@@ -122,6 +122,12 @@
   },
   "portfolio": {
     "projects": [
+      {
+        "title": "Task Manager",
+        "category": "(online) ",
+        "image": "TaskManagerApp.jpg",
+        "url": "https://task-manager-app-one.vercel.app/"
+      },
       {
         "title": "Album website",
         "category": "(offline now) ",

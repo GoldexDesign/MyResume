@@ -71,7 +71,7 @@ class Header extends Component {
                   in LinkedIn
                 </a>
                 {/* Button to open GitHub profile */}
-                <a href={github} className="button btn github-btn">
+                <a href={github} className="button btn linkedin-btn">
                   <i className="fa fa-github"></i>Github
                 </a>
               </ul>

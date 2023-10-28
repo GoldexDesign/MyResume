@@ -48,7 +48,7 @@ class About extends Component {
                     <a
                       href={resumeDownload}
                       className="button"
-                      download="public/ZlatkoSkoricResume.pdf"
+                      download="Zlatko_Skoric_CV.pdf"
                     >
                       <i className="fa fa-download"></i>Download Resume
                     </a>

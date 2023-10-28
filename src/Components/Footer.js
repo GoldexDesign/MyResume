@@ -4,7 +4,7 @@ class Footer extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const networks = this.props.data.social.map(function (network) {
+    const networks = this.props.data.social.map(function(network) {
       return (
         <li key={network.name}>
           <a href={network.url}>
@@ -22,11 +22,14 @@ class Footer extends Component {
               <ul className="social-links">{networks}</ul>
 
               <ul className="copyright">
-                <li>&copy; Copyright 2023 GoldexDesign</li>
+                <li>&copy; Copyright 2023 GoldexDevelopment</li>
                 <li>
                   Design by{" "}
-                  <a title="Styleshout" href="http://www.styleshout.com/">
-                    Styleshout
+                  <a
+                    title="Zlatko Skoric"
+                    href="https://zlatkoresume.netlify.app/"
+                  >
+                    GoldexDesign
                   </a>
                 </li>
               </ul>
